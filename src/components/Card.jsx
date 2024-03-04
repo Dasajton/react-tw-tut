@@ -1,7 +1,7 @@
 const Card = ({ key, img, name, nickname, position, bounty }) => {
     return (
         <div
-            className="m-2 flex h-72 w-[15rem] flex-col items-center rounded-lg border-2 border-blue-500 bg-blue-500 shadow-xl shadow-sky-500"
+            className="m-2 flex h-72 w-[15rem] flex-col items-center rounded-lg border-2 border-blue-500 bg-blue-500 shadow-lg shadow-sky-500"
             key={key}
         >
             <img

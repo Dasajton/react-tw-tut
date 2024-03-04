@@ -3,7 +3,7 @@ import { useState } from 'react'
 const Accordion = ({ name, username, address, email, website }) => {
     const [accordionOpen, setAccordionOpen] = useState(false)
     return (
-        <div className="m-2 w-full rounded-lg bg-purple-500/40 p-4 md:w-3/4">
+        <div className="m-2 w-full rounded-lg bg-purple-500/50 p-4 md:w-3/4">
             <button
                 onClick={() => setAccordionOpen(!accordionOpen)}
                 className="flex w-full items-center justify-between px-2"
