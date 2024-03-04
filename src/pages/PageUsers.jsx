@@ -29,10 +29,10 @@ const PageUsers = () => {
                         <Accordion
                             key={user.id}
                             name={user.name}
-                            username={user.username}
-                            address={`${user.address.street}, ${user.address.suite}, ${user.address.city}`}
-                            email={user.email}
-                            website={user.website}
+                            username={`Username: ${user.username}`}
+                            address={`Address: ${user.address.street}, ${user.address.suite}, ${user.address.city}`}
+                            email={`Email: ${user.email}`}
+                            website={`Website: ${user.website}`}
                         />
                     )
                 })}

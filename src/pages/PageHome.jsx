@@ -5,7 +5,7 @@ const PageHome = () => {
     return (
         <div>
             <h1 className="mb-6 text-center text-4xl font-medium text-purple-300">
-                Strohhut Bande
+                Strawhat Crew
             </h1>
 
             <div className="grid grid-cols-1 justify-items-center gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">

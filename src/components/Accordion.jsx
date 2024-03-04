@@ -18,9 +18,11 @@ const Accordion = ({ name, username, address, email, website }) => {
             >
                 <div className="overflow-hidden px-4">
                     <h3 className="text-xl text-purple-100">{username}</h3>
-                    <li>{address}</li>
-                    <li>{email}</li>
-                    <li>{website}</li>
+                    <div>
+                        <p>{address}</p>
+                        <p>{email}</p>
+                        <p>{website}</p>
+                    </div>
                 </div>
             </div>
         </div>
