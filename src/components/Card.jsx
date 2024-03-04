@@ -13,7 +13,7 @@ const Card = ({ key, img, name, nickname, position, bounty }) => {
             <h3 className="text-xl font-medium">{nickname}</h3>
             <div className="my-2 text-lg">
                 <p>{position}</p>
-                <p className="text-xl font-bold">{bounty}</p>
+                <p className="text-xl font-bold">{bounty} ฿</p>
             </div>
         </div>
     )
