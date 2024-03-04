@@ -19,10 +19,10 @@ const PagePhotos = () => {
             <h2 className="mb-6 text-center text-4xl font-medium text-purple-300">
                 Photo List
             </h2>
-            <h2 className="text-xl font-medium text-purple-300">
+            <h2 className="mb-2 text-center text-xl font-medium text-purple-300">
                 There are {photos.length} Photos
             </h2>
-            <div className="grid grid-cols-4 gap-2 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-10">
+            <div className="flex flex-wrap items-center justify-center gap-4">
                 {photos.map((photo) => {
                     return (
                         <img

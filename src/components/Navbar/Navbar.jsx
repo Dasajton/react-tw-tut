@@ -83,7 +83,7 @@ const Navbar = () => {
             </button>
 
             <ul
-                className={`fixed top-24 z-50 flex h-auto w-5/6 flex-col justify-center gap-4 rounded-l-lg bg-teal-500/50 p-2 backdrop-blur-lg duration-300 ease-in-out  ${
+                className={`fixed top-24 z-50 flex h-auto w-5/6 flex-col justify-center gap-4 rounded-l-lg bg-indigo-500/50 p-2 backdrop-blur-xl duration-300 ease-in-out  ${
                     isMenuOpen ? 'left-48' : 'left-full'
                 }`}
             >
