@@ -4,8 +4,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
 import {
     PageHome,
-    PagePlayground,
-    PageNotes,
+    PageTodos,
+    PagePhotos,
     PageUsers,
     PageNotFound,
 } from './pages'
@@ -18,8 +18,8 @@ const router = createBrowserRouter([
         errorElement: <PageNotFound />,
         children: [
             { path: '/', element: <PageHome /> },
-            { path: '/playground', element: <PagePlayground /> },
-            { path: '/notes', element: <PageNotes /> },
+            { path: '/todos', element: <PageTodos /> },
+            { path: '/photos', element: <PagePhotos /> },
             { path: '/users', element: <PageUsers /> },
         ],
     },

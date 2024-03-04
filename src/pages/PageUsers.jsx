@@ -16,19 +16,27 @@ const PageUsers = () => {
     }, [])
 
     return (
-        <div className="flex flex-col items-center">
-            {users.map((user) => {
-                return (
-                    <Accordion
-                        key={user.id}
-                        name={user.name}
-                        username={user.username}
-                        address={`${user.address.street}, ${user.address.suite}, ${user.address.city}`}
-                        email={user.email}
-                        website={user.website}
-                    />
-                )
-            })}
+        <div>
+            <h2 className="mb-10 text-center text-4xl font-medium text-purple-300">
+                Users
+            </h2>
+            <p className="text-center text-lg font-medium text-purple-200">
+                There are {users.length} Users
+            </p>
+            <div className="flex flex-col items-center">
+                {users.map((user) => {
+                    return (
+                        <Accordion
+                            key={user.id}
+                            name={user.name}
+                            username={user.username}
+                            address={`${user.address.street}, ${user.address.suite}, ${user.address.city}`}
+                            email={user.email}
+                            website={user.website}
+                        />
+                    )
+                })}
+            </div>
         </div>
     )
 }

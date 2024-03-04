@@ -8,8 +8,8 @@ import * as MdIcons from 'react-icons/md'
 
 const links = [
     { path: '/', label: 'Home' },
-    { path: '/playground', label: 'Playground' },
-    { path: '/notes', label: 'Notes' },
+    { path: '/todos', label: 'Todos' },
+    { path: '/photos', label: 'Photos' },
     { path: '/users', label: 'Users' },
 ]
 

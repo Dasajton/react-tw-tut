@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const PagePlayground = () => {
+const PageTodos = () => {
     const [todos, setTodos] = useState([])
 
     const fetchTodos = async () => {
@@ -16,7 +16,7 @@ const PagePlayground = () => {
 
     return (
         <>
-            <h1 className="mb-10 text-center text-5xl font-medium text-purple-300">
+            <h1 className="mb-10 text-center text-4xl font-medium text-purple-300">
                 Todo List
             </h1>
 
@@ -35,4 +35,4 @@ const PagePlayground = () => {
     )
 }
 
-export default PagePlayground
+export default PageTodos

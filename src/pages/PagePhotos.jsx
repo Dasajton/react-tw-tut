@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-const PageNotes = () => {
+const PagePhotos = () => {
     const [photos, setPhotos] = useState([])
 
     const fetchPhotos = async () => {
@@ -16,6 +16,9 @@ const PageNotes = () => {
 
     return (
         <>
+            <h2 className="mb-6 text-center text-4xl font-medium text-purple-300">
+                Photo List
+            </h2>
             <h2 className="text-xl font-medium text-purple-300">
                 There are {photos.length} Photos
             </h2>
@@ -35,4 +38,4 @@ const PageNotes = () => {
     )
 }
 
-export default PageNotes
+export default PagePhotos
