@@ -4,6 +4,6 @@
 
 @layer base {
     body {
-        @apply bg-gradient-to-r from-indigo-600 to-purple-500 text-lg text-white;
+        @apply bg-gradient-to-r from-indigo-600 to-purple-500 text-lg text-white dark:bg-gradient-to-r dark:from-indigo-950 dark:to-purple-800;
     }
 }
